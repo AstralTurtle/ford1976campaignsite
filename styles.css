@@ -1,0 +1,41 @@
+#splash {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: url("/assets/images/splash.jpg");
+    background-size: cover, 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 65vh;
+
+    text-align: center;
+
+    color: white;
+}
+
+.infobox {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    
+
+    height: 100%;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+}   
+.infoboxtext {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+}
+.infobox > img {
+    border: 1px solid white;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+}
