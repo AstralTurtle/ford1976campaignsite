@@ -1,41 +1,56 @@
 #splash {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
-    background-image: url("/assets/images/splash.jpg");
-    background-size: cover, 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+	background-image: url("/assets/images/splash.jpg");
+	background-size: cover, 100%;
+	background-position: center;
+	background-repeat: no-repeat;
 
-    height: 65vh;
+	height: 65vh;
 
-    text-align: center;
+	text-align: center;
 
-    color: white;
+	color: white;
 }
 
 .infobox {
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
+	display: flex;
 
-    
+	justify-content: center;
+	align-items: center;
 
-    height: 100%;
-    margin-top: 2vw;
-    margin-bottom: 5vw;
-}   
+	height: 100%;
+	margin-top: 2vw;
+	margin-bottom: 5vw;
+}
 .infoboxtext {
-    margin-left: 5vw;
-    margin-right: 5vw;
-    
+	margin-left: 5vw;
+	margin-right: 5vw;
 }
 .infobox > img {
-    border: 1px solid white;
+	border: 1px solid white;
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.5);
+	background: linear-gradient(
+		to bottom,
+		#e81b23,
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+	);
+}
+#scrolldown {
+	text-align: center;
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+#end {
+	background: orange;
+	text-align: center;
 }
